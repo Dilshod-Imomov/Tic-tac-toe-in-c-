@@ -34,7 +34,7 @@ if ( board[0][1] == board[1][1] && board[2][1] == board[1][1] && board[0][1] != 
 	# include "updateBoard.cpp"
 }
 if ( board[0][2] == board[1][2] && board[2][2] == board[1][2] && board[0][2] != 0 ) { //third column
-	int x = board[0][0];
+	int x = board[0][2];
 	# include "clearBoard.cpp"
 	board[0][2] = board[1][2] = board[2][2] = x;
 	winner = 1;
